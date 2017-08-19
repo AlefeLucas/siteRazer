@@ -1,0 +1,525 @@
+*{
+    font-family: OxygenRegular, sans-serif;                
+}
+
+@font-face {
+    font-family: OxygenLight;                
+    src: url('OXYGEN/Oxygen-Light.ttf');   
+} 
+
+@font-face {
+    font-family: OxygenRegular;                
+    src: url('OXYGEN/Oxygen-Regular.ttf');   
+} 
+
+@font-face {
+    font-family: OxygenBold;                
+    src: url('OXYGEN/Oxygen-Bold.ttf');   
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #000 url("img/honeycomb-bg.jpg") repeat;
+    color: white;
+}
+
+section{
+    text-align: center;
+    margin-top: 2em;
+}
+
+#cadastro{
+    background: black;
+    border: 1px solid #333;
+    display: inline-block;
+    padding-bottom: 2em;
+    text-transform: uppercase;
+    font-family: OxygenRegular , serif, sans-serif;
+}
+
+#cadastro h1{
+    text-transform: uppercase;
+}
+
+#cadastro input[type="button"], input[type="submit"], input[type="reset"]{
+    width: 7em;
+    height: 2em;
+    font-size: 13pt;
+    background-color: #111;
+    border: 0.1em solid #212121;
+    text-transform: uppercase;
+}
+
+#cadastro input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover{
+    color: #09C00B;
+}
+
+#cadastro input[type="text"], select{
+    height: 2em;
+    border: 0.2em solid #aaa;
+    background: black;
+    border: 1px solid #333;
+    color: white;
+
+}
+#cadastro input[type="text"]:disabled, select:disabled{
+    background-color: #111;
+    color: #111;
+}
+
+.textlarge{
+    width: 20em;
+}
+
+.divblock, .divblockcenter{    
+    display: block;
+    margin: auto;
+    width: 40em;
+    margin-top: 1em;
+}
+
+.divblock{
+    text-align: left;
+}
+
+
+.divblockcenter{
+    text-align: center;
+}
+
+.rotdiv{
+    display: inline-block;
+    width: 8em;
+    text-align: right;
+}
+
+.rotulo{        
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.divblock .radiostyle{
+    margin-left: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    width: 100%;
+    text-align: center;
+    font-family: OxygenBold, serif, sans-serif;
+    text-transform: uppercase;
+   
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    border-top: 0.1em solid #212121;
+    border-bottom: 0.1em solid #212121;
+    display: block;
+    font-family: inherit;
+}
+
+.menu{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: inherit;
+}
+
+.menu li{
+    position: relative; 
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: inherit;
+    font-size: 15pt;
+    width: 7em;
+    font-family: OxygenBold, Arial, sans-serif;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 0.1em 0.2em;
+    display: block;
+    background: black;
+    color: white;
+    font-family: inherit;
+}
+
+.menu li a:hover{
+    color: #00df00;
+}
+
+.menu li ul{
+    position: absolute;
+    padding: 0;
+    display: none;
+    width: 7em;
+    background-color: black;
+    border: 0.05em solid #103b05;  
+    font-family: inherit;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+.menu li ul li{
+    border-bottom: 0.05em solid #103b05;    
+    width: 7em;    
+    display: block;
+    font-family: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.menu{
+    font-family:Arial;
+    display: block;
+    margin:0 0 0 300px;
+    text-align: center;
+    background-color: black;
+
+}
+
+.menu ul{
+    padding-left:200px;
+
+}
+.menu ul li{
+    list-style: none;
+    font-size: 1.2em;
+    width: 6em;
+
+
+    position: relative;
+    float: left;
+    color:#3ad212;
+    background-color: black; 
+
+
+}
+
+
+.menu ul li:hover{
+    color:#242424;
+}
+
+.menu ul li ul li{
+    font-size: 1em;
+}
+
+.menu ul li ul li :hover{
+    color:#242424;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #3ad212;
+
+    width: inherit;
+    height: 1.5em;
+    margin: 0;
+
+    display: block;
+    position: relative;
+
+}
+.menu ul li ul{
+
+    left:0;
+    display: none;
+    position:absolute;
+    border: 1px solid #103b05;
+    background-color: black; 
+    padding: 0;
+
+}
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+header{
+    text-align:center;
+    font-family: OxygenRegular , courier new;
+}
+
+
+
+.menu a{
+    width: 100%;
+    height: 100%;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+header{
+    width: 100%;
+    text-align: center;
+    font-family: OxygenRegular, arial, sans-serif;
+
+}
+
+
+header{
+    min-width: 50em;
+}
+
+
+.menu{
+    display: inline-block;
+    list-style: none;
+    font-family: OxygenRegular, Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+.menu li{
+    position: relative;  
+
+    display: inline-block;
+    height: inherit;
+    font-size: 30px;
+
+
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    color:#3ad212;
+    background-color: black; 
+}
+
+.menu li a:hover{
+    border: 1px solid #103b05;
+    background-color: black; 
+}
+
+.menu li ul{
+
+    position: absolute;
+    padding: 0;
+    display: none;
+    top: 25px;
+    left: 0;
+    background-color: #000;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+
+.menu li ul li{
+    border: 1px solid #c0c0c0;
+    background: lightblue;
+    display: block;
+    width: 150px;
+}
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.temas {
+    text-align: center;
+    height: 21em;
+    width: 17.5em;
+    background: black;
+    border: 1px solid #333;
+    display: inline-block;
+    margin: 0.5em;  
+    color: white;
+}
+
+.bold{
+    font-family: OxygenBold, Arial, sans-serif;
+}
+
+.nosub{
+    text-decoration: none;
+}
+
+.temas table{
+    text-align: inherit;    
+    height: 100%;
+    width: 100%;    
+}
+
+.temas table{
+    text-align: inherit;    
+    height: 100%;
+    width: 100%;    
+}
+
+.tematitulo{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; 
+
+}
+
+.temas img{
+    max-height: 17em;
+    max-width: 90%;
+}
+
+
+
+.temas table:hover{
+    text-align: inherit;    
+    height: 100%;
+    width: 100%;     
+}
+
+.temas *{
+    color: inherit;
+}
+
+.temas *:hover{
+    color: inherit;
+}
+
+
+
+
+
+#indexsec div{
+    background-color: black; 
+    border: 1px solid #212121;    
+    width: 58.7em;
+    margin-top: 1em;
+}
+
+
+#indexsec h3{    
+    font-size: 19pt;
+}
+
+#indexsec p{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#indexsec div > img {    
+    max-width: 80%;
+}
